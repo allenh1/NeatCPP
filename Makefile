@@ -7,6 +7,6 @@ MaxSubarray: max-subarray.cpp
 	g++ --std=c++14 -g max-subarray.cpp -o MaxSubarray
 
 TemplateMetaprogramming: tmp-fact.cpp
-	g++ -std=c++14 -g tmp-fact.cpp -o TemplateMetaprogramming
+	g++ --std=c++14 -g tmp-fact.cpp -o TemplateMetaprogramming
 clean:
 	rm -f *.o FunctionObject MaxSubarray TemplateMetaprogramming
