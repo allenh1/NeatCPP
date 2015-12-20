@@ -50,11 +50,13 @@ int main (int argc, char ** argv) {
 	std::sort(array, array + ELEMENTS, Compare());
 
 	std::cout<<"\nSorted list:\n{";
+
 	for (int x = 0; x < ELEMENTS; ++x) {
 		// Since dist is [a, b), but we want 1000 included.
 		std::cout<<S_to_string(array[x]);
 		if (x + 1 < ELEMENTS) std::cout<<", ";
 	}
+	
 	std::cout<<"}"<<std::endl;
 
 	return 0;
