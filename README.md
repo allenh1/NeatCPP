@@ -32,7 +32,7 @@ TemplateMetaprogramming:
  * We use templates and enums to calculate factorials of numbers.
  * This will work with C++0x through C++17
 
-MaxSuarray:
+MaxSubarray:
 -----------
  * This one is pretty boring. It is just an implementation of the max subarray
    problem. It might need some lambdas to be more fun.
